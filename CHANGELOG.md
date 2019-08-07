@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.0] - TBD
 ### Added
-- Spotbugs exclude filter file
+- Spotbugs exclude filter file.
 
 ## [1.0.0] - 2019-07-25
 ### Changed
