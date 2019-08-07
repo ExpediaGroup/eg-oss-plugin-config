@@ -1,4 +1,4 @@
-<!-- these bugs/files/etc won't be reported by findbugs -->
+<!-- these bugs/files/etc won't be reported by spotbugs -->
 
 <FindBugsFilter>
   <Match>
