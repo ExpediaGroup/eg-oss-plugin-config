@@ -10,8 +10,8 @@
   <name>Expedia Group Open Source Plugin Configuration</name>
 
   <scm>
-    <connection>scm:git:git@github.com:ExpediaGroup/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:ExpediaGroup/${project.artifactId}.git</developerConnection>
+    <connection>scm:git:https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/ExpediaGroup/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/ExpediaGroup/${project.artifactId}.git</developerConnection>
     <url>https://github.com/ExpediaGroup/eg-oss-plugin-config</url>
     <tag>HEAD</tag>
   </scm>
