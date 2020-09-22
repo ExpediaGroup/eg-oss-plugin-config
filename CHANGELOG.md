@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Updated `javadoc.plugin` version from 3.0.1 to 3.2.0.
 - Updated `release.plugin` from 2.5.3 to 3.0.0-M1.
 - Updated `source.plugin` from 3.0.1 to 3.2.0.
+- Changed location of *LineLength* to solve a bug that appeared in the updated version of the checkstyle plugin.
 
 ## [1.1.0] - 2019-08-08
 ### Added
