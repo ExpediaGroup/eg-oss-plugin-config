@@ -3,6 +3,10 @@
   "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
 
 <module name="Checker">
+
+  <module name="LineLength">
+    <property name="max" value="140" />
+  </module>
   <property name="severity" value="warning"/>
   <!-- Checks that property files contain the same keys.         -->
   <!-- See http://checkstyle.sf.net/config_misc.html#Translation -->
@@ -48,9 +52,7 @@
 
     <!-- Checks for Size Violations.                    -->
     <!-- See http://checkstyle.sf.net/config_sizes.html -->
-    <module name="LineLength">
-      <property name="max" value="140" />
-    </module>
+
     <module name="MethodLength" />
     <module name="ParameterNumber" >
       <property name="max" value="5"/>
